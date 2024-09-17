@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Modern+Antiqua&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-prev:before, .slick-next:before {
+    color: #000; 
+    font-size: 30px; 
+  }
+  .slick-prev, .slick-next {
+    z-index: 1; 
+  }
+
+  @media only screen and (max-width: 768px) {
+    .slick-prev::before, .slick-next::before {
+      font-size: 25px; 
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .slick-prev::before, .slick-next::before {
+      font-size: 20px; 
+    }
+  }
+
+  body{
+    font-family: "Libre Baskerville", serif;
+  }
