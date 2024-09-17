@@ -40,7 +40,7 @@ const About = () => {
         obcaecati blanditiis qui porro culpa deleniti, sapiente maiores.
       </p>
       <h2 className="font-bold text-xl py-2 max-md:text-lg max-md:mx-2">
-        Why NextBookStore ?
+        Why NextBookStore?
       </h2>
       <ul className="p-2 pl-10">
         <li className="list-disc text-lg p-2 text-justify max-md:text-base max-sm:text-sm">
