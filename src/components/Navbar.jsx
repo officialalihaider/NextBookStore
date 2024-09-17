@@ -41,7 +41,7 @@ const Navbar = () => {
         <>
             <div className='w-screen p-4 px-14 bg-slate-200 flex justify-between items-center fixed top-0 z-20 shadow-lg font-modern max-md:px-10 max-sm:px-4 max-md:p-3 max-sm:p-2'>
                 <div className="nav-left">
-                    <h1 className='font-bold text-3xl text-slate-800 max-md:text-2xl max-sm:text-xl '><NavLink to="/">NexBookStore</NavLink></h1>
+                    <h1 className='font-bold text-3xl text-slate-800 max-md:text-2xl max-sm:text-xl '><NavLink to="/">NextBookStore</NavLink></h1>
                 </div>
                 <div className="nav-right">
                     {/* for desktop view */}
